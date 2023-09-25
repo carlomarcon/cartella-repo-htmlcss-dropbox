@@ -8,6 +8,14 @@ header {
   height: 20vh;
 }
 
+h2 {
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+}
 /* default */
 .green {
   background-color: green;
@@ -44,10 +52,17 @@ header {
   min-height: 40%;
   width: 40%;
 }
+
+.pink {
+  background-color: pink;
+  min-height: 40%;
+  width: 40%;
+}
+
 /* 1pagina */
 
 .page1 {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: aqua;
 
@@ -69,7 +84,7 @@ header {
 /* pagina2 */
 
 .page2 {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -95,8 +110,9 @@ header {
 }
 
 /* pagina3 */
+
 .page3 {
-  height: 70vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -104,7 +120,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 40%;
+  height: 50%;
   width: 100%;
   justify-content: center;
 }
@@ -112,13 +128,20 @@ header {
 .pag3-grid2 {
   display: flex;
   justify-content: center;
-  height: 60%;
+  height: 50%;
   width: 100%;
 }
 
 .page3 .green,
 .page3 .grey {
   width: 75%;
+}
+.page3. .green {
+  height: 80%;
+}
+
+.page3 .grey {
+  height: 20%;
 }
 
 .page3 .yellow,
@@ -129,11 +152,85 @@ header {
 /* pagina4 */
 
 .page4 {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
 .pag4-grid {
-  height: 70%;
+  height: 80%;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pag4-grid div {
+  width: calc(76% / 3);
+}
+
+.page4 .pink {
+  margin: auto;
+  width: 76%;
+  height: 20%;
+}
+
+/* pagina5 */
+
+.page5 {
+  height: 120vh;
+  width: 100%;
+}
+
+.pag5-grid {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page5 .green,
+.page5 .red,
+.page5 .yellow {
+  width: calc(100% / 3);
+}
+
+.free-trial {
+  background-color: cadetblue;
+  height: 40%;
+  width: 100%;
+}
+
+/* pagina6 */
+
+.page6 {
+  height: 80vh;
+  width: 100%;
+}
+
+.FAQ {
+  height: 50%;
+  width: 100%;
+}
+
+.Links {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Links div {
+  height: 70%;
+  width: calc(100% / 7);
+}
+
+/* footer */
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  border: 2px solid white;
 }

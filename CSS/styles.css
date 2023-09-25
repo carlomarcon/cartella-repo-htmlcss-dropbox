@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 20vh;
+}
+
+/* default */
+.green {
+  background-color: green;
+  min-height: 40%;
+  width: 20%;
+}
+
+.red {
+  background-color: red;
+  min-height: 40%;
+  width: 20%;
+}
+
+.yellow {
+  background-color: yellow;
+  min-height: 40%;
+  width: 40%;
+}
+
+.grey {
+  background-color: grey;
+  min-height: 40%;
+  width: 40%;
+}
+
+.blue {
+  background-color: blue;
+  min-height: 40%;
+  width: 40%;
+}
+
+.black {
+  background-color: black;
+  min-height: 40%;
+  width: 40%;
+}
+/* 1pagina */
+
+.page1 {
+  height: 90vh;
+  width: 100%;
+  background-color: aqua;
+
+  justify-content: center;
+}
+
+.pag1-grid {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page1 .green {
+  margin: auto;
+  width: 60%;
+}
+
+/* pagina2 */
+
+.page2 {
+  height: 90vh;
+  width: 100%;
+}
+
+.initial-pag1 {
+  background-color: grey;
+  height: 30%;
+  width: 75%;
+  margin: auto;
+}
+
+.pag2-grid {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page2 .green,
+.page2 .red,
+.page2 .yellow {
+  min-height: 100%;
+  width: 25%;
+}
+
+/* pagina3 */
+.page3 {
+  height: 70vh;
+  width: 100%;
+}
+
+.pag3-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+  justify-content: center;
+}
+
+.pag3-grid2 {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  width: 100%;
+}
+
+.page3 .green,
+.page3 .grey {
+  width: 75%;
+}
+
+.page3 .yellow,
+.page3 .red {
+  width: 38%;
+}
+
+/* pagina4 */
+
+.page4 {
+  height: 80vh;
+  width: 100%;
+}
+
+.pag4-grid {
+  height: 70%;
+  display: flex;
+}

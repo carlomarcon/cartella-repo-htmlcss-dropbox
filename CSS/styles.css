@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  min-height: 100px;
-}
-
 h2 {
   text-align: center;
 }
@@ -17,6 +13,12 @@ a {
   text-align: center;
 }
 
+/* Emoji */
+
+.arrow {
+  margin-top: 5.5rem;
+  font-size: 3rem;
+}
 /* default */
 .green {
   background-color: green;
@@ -64,12 +66,33 @@ a {
 
 .btn {
   background-color: rgb(16, 87, 157);
-  width: 72%;
   height: 2rem;
   line-height: 2rem;
   text-decoration: none;
   color: white;
+  display: inline-block;
+  padding: 0 8px;
 }
+
+/* header */
+
+header {
+  min-height: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 35rem;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  color: rgba(98, 98, 98, 0.729);
+}
+
 /* 1pagina */
 
 .page1 {
@@ -91,6 +114,21 @@ a {
   width: 44%;
   font-size: 2rem;
   min-height: 150px;
+}
+
+.page1 .yellow {
+  position: relative;
+}
+
+.page1 .red {
+  padding-top: 2.5rem;
+}
+
+.page1-img {
+  min-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 10%;
 }
 
 /* pagina2 */

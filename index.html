@@ -9,6 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <header>
     <nav>
@@ -37,11 +40,11 @@
   <body>
     <!-- pagina1 -->
     <section class="page1">
-      <div class="green">
+      <div class="green no-border" id="no-border">
         <h1>Tutto ciò che ti serve per il lavoro,in un unico posto</h1>
       </div>
       <div class="pag1-grid">
-        <div class="red">
+        <div class="red " id="no-border">
           <p>
             Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono
             accessibilli dallo stesso posto. Dropbox Business è più di uno
@@ -54,7 +57,7 @@
           <p>Annulla in qualsiasi momento</p>
           <i class="fa-solid fa-arrow-down arrow"></i>
         </div>
-        <div class="yellow">
+        <div class="yellow" id="no-border">
           <img src="img/img/jumbo.png" alt="" class="page1-img" />
         </div>
       </div>
@@ -64,8 +67,10 @@
     <section class="page2">
       <div class="initial-pag1">
         <h2>Trova il piano business che fa per te</h2>
-        <button></button><button></button>
-      </div>
+        <div class="buttons-pag2Div">
+      <div class="button1Div"><a href="" class="button-pag2"></a><span>Fatturazione Mensile</span></div> <div class="button2Div"><a href="" class="button-pag2"></a><span>Fatturazione annuale</span></div>
+    </div>
+    </div>
       <div class="pag2-grid">
         <div class="green">
           <p class="headline-pag1"><i class="fa-solid fa-user"></i>Singolo</p>
@@ -75,7 +80,7 @@
           <h4>Professional</h4>
           <br />
           <h6>€ 12.00</h6>
-          <span>/mese</span>
+          <span class="grey-color">/mese</span>
           <br />
           <br />
           <br />
@@ -88,7 +93,7 @@
             <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
             premium e consivisione file semplice e sicura
           </p>
-          <a href="" class="btn-pag2">Prova gratis per 30 giorno</a>
+          <a href="" class="btn-pag2 white-color">Prova gratis per 30 giorno</a>
           <br />
           <span>oppure <a href="">acquista ora</a></span>
           <hr class="rule2" />
@@ -104,7 +109,7 @@
           <h4>Professional</h4>
           <br />
           <h6>€ 12.00</h6>
-          <span>/mese</span>
+          <span class="grey-color">/mese</span>
           <br />
           <br />
           <br />
@@ -117,7 +122,7 @@
             <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
             premium e consivisione file semplice e sicura
           </p>
-          <a href="" class="btn-pag2">Prova gratis per 30 giorno</a>
+          <a href="" class="btn-pag2 white-color">Prova gratis per 30 giorno</a>
           <br />
           <span>oppure <a href="">acquista ora</a></span>
           <hr class="rule2" />
@@ -133,7 +138,7 @@
           <h4>Professional</h4>
           <br />
           <h6>€ 12.00</h6>
-          <span>/mese</span>
+          <span class="grey-color">/mese</span>
           <br />
           <br />
           <br />
@@ -146,7 +151,7 @@
             <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
             premium e consivisione file semplice e sicura
           </p>
-          <a href="" class="btn-pag2">Prova gratis per 30 giorno</a>
+          <a href="" class="btn-pag2 white-color">Prova gratis per 30 giorno</a>
           <br />
           <span>oppure <a href="">acquista ora</a></span>
           <hr class="rule2" />
@@ -160,24 +165,24 @@
     <!-- pagina3 -->
     <section class="page3">
       <div class="pag3-grid">
-        <div class="grey upDiv-pag3">
+        <div class="grey upDiv-pag3 grey-color">
           <i class="fa-solid fa-building"></i>Team
         </div>
         <div class="green downDiv-pag3">
           <h3>Enterprise</h3>
-          <a href="" class="btn">Contatta l'ufficio vendite</a>
+          <a href="" class="btn white-color">Contatta l'ufficio vendite</a>
           <h4>Contatta l'ufficio vendite per i prezzi</h4>
-          <p>
+          <p class="grey-color">
             Soluzioni personalizzate e supporto su misura per aiutare i
             professionisti IT nella gestione su qualsiasi scala
           </p>
         </div>
       </div>
       <div class="pag3-grid2">
-        <div class="yellow">
+        <div class="yellow" id="no-border">
           <img src="img/img/partner.png" alt="img-pag3" class="page2-img" />
         </div>
-        <div class="red">
+        <div class="red" id="no-border">
           <h4>Entra in contatto con un partner Dropbox</h4>
           <p>
             Trova un partner Dropbox e Hellosign di fiducia. Ottieni le
@@ -194,28 +199,28 @@
     <section class="page4">
       <h2>Esegui più operazioni con Dropbox Business</h2>
       <div class="pag4-grid">
-        <div class="grey content-page4"><img src="img/img/business-feature-switching-tools.png" alt="" class="img-page4">
+        <div class="grey content-page4" id="no-border"><img src="img/img/business-feature-switching-tools.png" alt="" class="img-page4">
           
         <h3>Passa di meno da uno strumento all'altro</h3>
       <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
 
-      <div class="red content-page4"><img src="img/img/business-feature-send-files-it.png" alt="" class="img-page4">
+      <div class="red content-page4" id="no-border"><img src="img/img/business-feature-send-files-it.png" alt="" class="img-page4">
         <h3>Passa di meno da uno strumento all'altro</h3>
         <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
   
-        <div class="yellow content-page4"><img src="img/img/business-feature-coordinate-it.png" alt="" class="img-page4">
+        <div class="yellow content-page4" id="no-border"><img src="img/img/business-feature-coordinate-it.png" alt="" class="img-page4">
           <h3>Passa di meno da uno strumento all'altro</h3>
           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
     
-        <div class="green content-page4"><img src="img/img/business-feature-integrations-it.png" alt="" class="img-page4">
+        <div class="green content-page4" id="no-border"><img src="img/img/business-feature-integrations-it.png" alt="" class="img-page4">
           <h3>Passa di meno da uno strumento all'altro</h3>
           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
     
-        <div class="black content-page4"><img src="img/img/business-feature-multi-device.png" alt="" class="img-page4">
+        <div class="black content-page4" id="no-border"><img src="img/img/business-feature-multi-device.png" alt="" class="img-page4">
           <h3>Passa di meno da uno strumento all'altro</h3>
           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
     
-        <div class="blue content-page4"><img src="img/img/business-feature-security.png" alt=""class="img-page4">
+        <div class="blue content-page4" id="no-border"><img src="img/img/business-feature-security.png" alt=""class="img-page4">
           <h3>Passa di meno da uno strumento all'altro</h3>
           <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti,fogli e presentazioni di google,file Microsoft office e Dropbox Paper direttamente da Dropbox.</p></div>
     
@@ -248,31 +253,31 @@
           <img src="img/img/topps.svg" alt="" class="img4-pag5" />
         </div>
         <div class="red centralDiv-pag5">
-          <img src="img/img/designit.svg" alt="">
-          <hr>
+          <img src="img/img/designit.svg" alt="" class="img-centralDiv-pag5">
+          <hr class="rule-pag5">
           <p>"I membri del nostro team lavorano costantemente in paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox paper"."</p>
-          <br>
+         
           <p>Morten Thomsen, Global IT Lead</p>
         </div>
         <div class="yellow">
-          <img src="img/img/designit.svg" alt="" class="img1-pag5" />
+          <img src="img/img/world_bicycle_relief.svg" alt="" class="img1-pag5" />
           <img
-            src="img/img/arizona_state_university.svg"
+            src="img/img/hearst_corp.svg"
             alt=""
             class="img2-pag5"
           />
           <img
-            src="img/img/university_of_florida.svg"
+            src="img/img/lonely_planet.svg"
             alt=""
             class="img3-pag5"
           />
-          <img src="img/img/topps.svg" alt="" class="img4-pag5" />
+          <img src="img/img/clear_channel.svg" alt="" class="img4-pag5" />
         </div>
         </div>
       </div>
       <div class="free-trial">
        <div class="Free-left"><h2>Porta Dropbox Business nella tua azienda</h2></div>
-       <div class="Free-right"><a href="" class="btn">Inizia la tua prova gratuita</a></div>
+       <div class="Free-right"><a href="" class="btn-pag5">Inizia la tua prova gratuita</a></div>
       </div>
     </section>
 
@@ -347,9 +352,12 @@
                      </ul>
         </div>
       </div>
+      <div class="language-footer">
       <hr class="rule1-footer">
-      <span><i class="fa-solid fa-globe"></i>Italiano<i class="fa-solid fa-arrow-up"></i></span>
-   <hr>
+      <span class="grey-color"><i class="fa-solid fa-globe"></i>Italiano<i class="fa-solid fa-arrow-up"></i></span>
+  
+  </div>
+  <hr>
     </section>
   </footer>
 </html>

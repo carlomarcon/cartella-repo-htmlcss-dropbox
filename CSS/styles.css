@@ -38,6 +38,12 @@ span {
   margin-top: 5.5rem;
   font-size: 3rem;
 }
+
+.arrow2 {
+  position: relative;
+  left: 98%;
+  bottom: 52px;
+}
 /* default */
 .green {
   background-color: green;
@@ -194,6 +200,7 @@ nav li {
   padding: 0 8px;
   margin: 36px;
   margin-left: 50px;
+  text-align: center;
 }
 
 .rule2 {
@@ -286,16 +293,18 @@ nav li {
   text-align: center;
   margin-top: 1rem;
   margin-left: 2rem;
+  text-align: center;
 }
 
-.red h4 {
+.page3 .red h4 {
   padding: 2rem;
 }
 
-.red p {
+/* .red p {
   padding-left: 2rem;
-  padding-right: 5rem;
-}
+  padding-right: 5rem; */
+/* } */
+
 /* pagina4 */
 
 .page4 {
@@ -303,27 +312,41 @@ nav li {
 }
 
 .pag4-grid {
-  min-height: 500px;
-  max-width: 100%;
+  min-height: 800px;
+  max-width: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .pag4-grid div {
   width: calc(76% / 3);
 }
 
-.page4 .pink {
+/* .page4 .pink {
+  min-height: 150px;
   margin: auto;
-  width: 76%;
-}
+  width: 58%;
+  text-align: left;
+} */
 
 .page4 h2 {
-  margin-left: 11rem;
+  margin-left: 18rem;
+}
+.page4 .pag4-grid h2 {
+  margin-left: 18.5rem;
 }
 
-.page
+.img-page4 {
+  max-width: 100%;
+  height: 50%;
+}
+
+.content-page4 h3,
+.content-page4 p {
+  margin: 1rem;
+}
 
 /* pagina5 */
 
@@ -333,9 +356,12 @@ nav li {
 
 .initial-page5 {
   min-height: 200px;
+  margin: auto;
+  width: 58%;
+  text-align: left;
 }
 .pag5-grid {
-  min-height: 300px;
+  min-height: 400px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -350,8 +376,20 @@ nav li {
 
 .free-trial {
   background-color: cadetblue;
-  height: 40%;
+  min-height: 250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.Free-left {
+  vertical-align: middle;
+}
+
+.Free-right {
+  vertical-align: middle;
 }
 
 .img1-pag5 {
@@ -393,21 +431,48 @@ nav li {
   background-color: rgb(213, 30, 30);
   padding: 1.5rem;
 }
-/* pagina6 */
 
-.page6 {
-  min-height: 500px;
-  width: 100%;
+.centralDiv-pag5 {
 }
 
+/* PAGINA6 */
+
 .FAQ {
-  height: 50%;
+  min-height: 400px;
+  width: 100%;
+  padding: 4rem 24rem;
+}
+
+.FAQ li {
+  padding: 2rem 0;
+  border-top: 2px solid black;
+  list-style-type: none;
+}
+
+.hidden:hover p {
+  display: inline-block;
+}
+
+.FAQ p {
+  display: none;
+  margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.page7 {
   width: 100%;
 }
 
 .Links {
   background-color: black;
-  height: 50%;
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -417,13 +482,17 @@ nav li {
 .Links div {
   height: 70%;
   width: calc(100% / 7);
+  color: white;
 }
 
-/* footer */
+.Links li {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+}
 
-footer {
-  height: 10vh;
-  width: 100%;
-  background-color: black;
-  border: 2px solid white;
+.Links h4 {
+  margin: 1rem 0;
+}
+
+.rule1-footer {
 }

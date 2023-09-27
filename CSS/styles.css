@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Fredoka", sans-serif;
+}
+/* common */
+
+.grey-color {
+  color: rgba(98, 98, 98, 0.729);
+}
+
+.white-color {
+  color: white;
+}
+
 h2 {
   text-align: left;
   line-height: 150px;
@@ -11,6 +25,10 @@ h2 {
 
 i {
   padding: 3px;
+}
+
+#no-border {
+  border: none;
 }
 /* a {
   display: block;
@@ -40,51 +58,58 @@ span {
 }
 
 .arrow2 {
-  position: relative;
-  left: 98%;
-  bottom: 52px;
+  position: absolute;
+  left: 75%;
+  margin: -37px;
 }
 /* default */
 .green {
-  background-color: green;
+  /* background-color: green; */
   min-height: 20px;
   width: 20%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .red {
-  background-color: red;
+  /* background-color: red; */
   min-height: 20px;
   width: 20%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .yellow {
-  background-color: yellow;
+  /* background-color: yellow; */
   min-height: 20px;
   width: 40%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .grey {
-  background-color: grey;
+  /* background-color: grey; */
   min-height: 20px;
   width: 40%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .blue {
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 20px;
   width: 40%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .black {
-  background-color: black;
+  /* background-color: black; */
   min-height: 40%;
   width: 40%;
+  border: 2px solid black;
 }
 
 .pink {
-  background-color: pink;
+  /* background-color: pink; */
   min-height: 40%;
   width: 40%;
+  border: 1px solid rgba(78, 74, 74, 0.322);
 }
 
 .btn {
@@ -107,7 +132,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  gap: 35rem;
+  gap: 33rem;
 }
 
 nav li {
@@ -152,7 +177,15 @@ nav li {
   min-height: 100%;
   max-width: 100%;
   position: absolute;
-  top: 10%;
+  top: 12%;
+}
+
+.page1 p {
+  margin-top: 1rem;
+}
+
+.page1 h1 {
+  padding-top: 3rem;
 }
 
 /* pagina2 */
@@ -162,7 +195,7 @@ nav li {
 }
 
 .initial-pag1 {
-  background-color: grey;
+  /* background-color: grey; */
   min-height: 150px;
   width: 60%;
   margin: auto;
@@ -188,6 +221,7 @@ nav li {
   min-height: 100%;
   width: 19%;
   padding-bottom: 10rem;
+  padding: 1rem;
 }
 
 .btn-pag2 {
@@ -215,6 +249,26 @@ nav li {
 .page2 p {
   margin-bottom: 1rem;
 }
+
+.button-pag2 {
+  display: inline-block;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  vertical-align: middle;
+}
+
+.button-pag2:hover {
+  border: 4px solid;
+  border-color: blue;
+}
+
+.buttons-pag2Div {
+  display: flex;
+  gap: 2rem;
+}
+
 /* pagina3 */
 
 .page3 {
@@ -236,6 +290,7 @@ nav li {
   justify-content: center;
   min-height: 300px;
   width: 100%;
+  margin-top: 3rem;
 }
 
 .page3 .green {
@@ -300,10 +355,10 @@ nav li {
   padding: 2rem;
 }
 
-/* .red p {
+.page3 .red p {
   padding-left: 2rem;
-  padding-right: 5rem; */
-/* } */
+  padding-right: 5rem;
+}
 
 /* pagina4 */
 
@@ -332,7 +387,7 @@ nav li {
 } */
 
 .page4 h2 {
-  margin-left: 18rem;
+  margin-left: 19.5rem;
 }
 .page4 .pag4-grid h2 {
   margin-left: 18.5rem;
@@ -355,10 +410,18 @@ nav li {
 }
 
 .initial-page5 {
-  min-height: 200px;
+  min-height: 300px;
   margin: auto;
   width: 58%;
   text-align: left;
+}
+
+.initial-page5 h2 {
+  height: 8rem;
+}
+
+.initial-page5 a {
+  color: blue;
 }
 .pag5-grid {
   min-height: 400px;
@@ -376,7 +439,7 @@ nav li {
 
 .free-trial {
   background-color: cadetblue;
-  min-height: 250px;
+  min-height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -390,6 +453,16 @@ nav li {
 
 .Free-right {
   vertical-align: middle;
+  background-color: white;
+  height: 3rem;
+  width: 14rem;
+  text-align: center;
+  padding-top: 13px;
+  color: ;
+}
+
+.Free-right a {
+  text-decoration: none;
 }
 
 .img1-pag5 {
@@ -432,9 +505,25 @@ nav li {
   padding: 1.5rem;
 }
 
-.centralDiv-pag5 {
+.img-centralDiv-pag5 {
+  width: 40%;
+  height: 25%;
 }
 
+.rule-pag5 {
+  margin-left: 3%;
+  width: 15%;
+}
+.centralDiv-pag5 {
+  padding: 2rem;
+}
+
+.centralDiv-pag5 p {
+  margin-top: 2rem;
+}
+
+.btn-pag5 {
+}
 /* PAGINA6 */
 
 .FAQ {
@@ -444,7 +533,7 @@ nav li {
 }
 
 .FAQ li {
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 2px solid black;
   list-style-type: none;
 }
@@ -456,6 +545,11 @@ nav li {
 .FAQ p {
   display: none;
   margin-bottom: 2rem;
+  width: 40rem;
+}
+
+.hidden {
+  width: 0;
 }
 
 /* footer */
@@ -495,4 +589,11 @@ footer {
 }
 
 .rule1-footer {
+  width: 10%;
+  color: white;
+}
+
+.language-footer {
+  margin-left: 13rem;
+  padding: 1rem;
 }
